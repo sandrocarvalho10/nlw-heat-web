@@ -9,7 +9,6 @@ export function LoginBox(){
 
   const {signInUrl, user} = useContext(AuthContext)
 
-  console.log(user);
 
   return(
     <div className={styles.loginBoxWrapper} >
